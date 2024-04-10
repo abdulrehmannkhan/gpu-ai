@@ -1,0 +1,43 @@
+.hdr img {
+    height: 5rem;
+}
+h1.text-4xl.sm\:text-6xl.lg\:text-8xl.font-bold.mb-4.lg\:mb-8.leading-tight.w-full.mx-auto.flex.flex-col.justify-center {
+    font-size: 44px;
+    width: 50%;
+    line-height: 60px;
+}
+
+h1.text-4xl.sm\:text-6xl.lg\:text-8xl.font-bold.mb-4.lg\:mb-8.leading-tight.w-full.mx-auto.flex.flex-col.justify-center span {
+    font-size: 100px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+h3.text-3xl.sm\:text-5xl.mt-0.mb-4.font-bold {
+    font-size: 40px;
+    line-height: 50px;
+}
+img.h-6.fill-current {height: 4rem;}
+
+.border-t.border-white.border-opacity-10.flex.justify-between.mt-auto.z-20.py-8 {
+    align-items: center;
+}
+a.bg-primary.hover\:bg-opacity-80.flex.items-center.gap-1.font-semibold.text-gray-800.py-1.lg\:py-2.px-2.lg\:px-4.text-md.rounded-md.transition {
+    background: #7843e6;
+}
+
+@media (max-width: 600px) {
+    h1.text-4xl.sm\:text-6xl.lg\:text-8xl.font-bold.mb-4.lg\:mb-8.leading-tight.w-full.mx-auto.flex.flex-col.justify-center {
+        width: 100%;
+        font-size: 30px;
+        line-height: 41px;
+    }
+    
+    h1.text-4xl.sm\:text-6xl.lg\:text-8xl.font-bold.mb-4.lg\:mb-8.leading-tight.w-full.mx-auto.flex.flex-col.justify-center span {
+        font-size: 60px;
+    }
+    
+    .text-gray-500.text-sm {
+        text-align: center;
+    }
+
+}
